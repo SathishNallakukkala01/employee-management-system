@@ -54,23 +54,22 @@ employee-management-system/
 │ ├── src/
 │ └── package.json
 
-## ⚙️ Installation & Setup
-
-### Prerequisites
-- Java 17+
-- Node.js & npm
-- MySQL
-- Maven
-
-### Project Setup
-###Backend Setup
-```bash
+⚙ Backend Setup
+# Navigate to backend directory
 cd ems-backend
+
+# Build the backend
+mvn clean install
+
+# Run the backend
 mvn spring-boot:run
 
-###Frontend Setup
-```bash
-# Navigate to the frontend directory
+
+Backend will run on:
+http://localhost:8080
+
+🚀 Frontend Setup
+# Navigate to frontend directory
 cd ems-frontend
 
 # Install dependencies
@@ -78,3 +77,8 @@ npm install
 
 # Start the development server
 npm run dev
+
+
+Frontend will run on:
+http://localhost:5173
+
