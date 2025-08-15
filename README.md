@@ -62,12 +62,13 @@ employee-management-system/
 - MySQL
 - Maven
 
-### Backend Setup
+### Project Setup
+###Backend Setup
 ```bash
 cd ems-backend
 mvn spring-boot:run
---
-### Frontend Setup
+
+###Frontend Setup
 ```bash
 # Navigate to the frontend directory
 cd ems-frontend
