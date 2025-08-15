@@ -66,8 +66,14 @@ employee-management-system/
 ```bash
 cd ems-backend
 mvn spring-boot:run
-
+--
 ### Frontend Setup
+```bash
+# Navigate to the frontend directory
 cd ems-frontend
+
+# Install dependencies
 npm install
+
+# Start the development server
 npm run dev
